@@ -1,0 +1,23 @@
+API Outputs with testcases:
+
+INFO:     Will watch for changes in these directories: ['D:\\Project\\Internship\\Phase_2']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [19920] using StatReload
+INFO:     Started server process [17144]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:52678 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52678 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50819 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50819 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56638 - "POST /users HTTP/1.1" 201 Created
+INFO:     127.0.0.1:63204 - "GET /users/0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51315 - "PUT /users/0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "PUT /users/0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56676 - "DELETE /users/0 HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54120 - "DELETE /users/10 HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [17144]
+INFO:     Stopping reloader process [19920]
